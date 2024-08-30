@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Borel&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Foods</a>
+        <div class="menu" id="menu-icon"></div>
+        <ul  class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+        <h1>Full Website</h1>
+        <h2>Food The <br>Most Precious Things</h2>
+        <a href="#" class="btn">Today's Menu</a>
+        </div>
+        <div class="home-img">
+               <img src="image/home.png">
+        </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+            <img src="image/about.png">
+             </div>
+        <div class="about-text">
+            <span> About us</span>
+            <h2> We speak the good <br>food language</h2>
+           <p> We deliver fresh and delicious food in town.</p>
+           <a href="#" class="btn">Today's Menu</a>
+        </div>
+    </section>
+   <!-- menu start-->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span style="color:var(--main-color)">Food Menu</span>
+            <h2 style="font-size: var(--h2-font)">Fresh taste and great price</h2>
+        </div>
+        <div class="menu-container" style="display:grid;
+                grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+                grid-gap: 1.8rem;">
+            <div class="box"
+                style="
+                margin-top:4rem;
+                height:auto;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content: center;
+                background:#feeee7;
+                padding:20px;
+                border-radius:0.5rem">
+                <div class="box-img">
+                    <img src="image/food1.png">
+                </div>
+                <h2 style="font-size:1.3rem; color:var(--bg-color);">Chicken Burger</h2>
+                <h3 style="color:var(--bg-color);font-size:1rem; font-weight:400; margin: 4px 0 10px;">Tast Foods</h3>
+                <span style="font-size: var(--medium-font); color: var(--main-color); font-weight:600">$11.00</span>
+                <box-icon type='solid' name='cart-alt'>
+                    <img src="image/cart.png">
+                </box-icon>
+            </div>
+            <div class="box" style=
+               " position:relative;
+                margin-top:4rem;
+                height:auto;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content: center;
+                background:#feeee7;
+                padding:20px;
+                border-radius:0.5rem">
+                <div class="box-img">
+                    <img src="image/food2.png">
+                </div>
+                <h2  style="font-size:1.3rem; color:var(--bg-color);">Chicken Burger</h2>
+                <h3 style="color:var(--bg-color);font-size:1rem; font-weight:400; margin: 4px 0 10px;">Tast Foods</h3>
+                <span style="font-size: var(--medium-font); color: var(--main-color); font-weight:600">$11.00</span>
+                <box-icon type='solid' name='cart-alt'>
+                    <img src="image/cart.png">
+                </box-icon>
+            </div>
+            <div class="box" style="
+                position:relative;
+                margin-top:4rem;
+                height:auto;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                background:#feeee7;
+                padding:10px;
+                border-radius:0.5rem">
+                <div class="box-img">
+                    <img src="image/food3.png">
+                </div>
+                <h2 style="font-size:1.3rem; color:var(--bg-color);">Chicken Burger</h2>
+                <h3 style="color:var(--bg-color);font-size:1rem; font-weight:400; margin: 4px 0 10px;">Tast Foods</h3>
+                <span style="font-size: var(--medium-font); color: var(--main-color); font-weight:600">$11.00</span>
+                <box-icon type='solid' name='cart-alt'>
+                    <img src="image/cart.png">
+                </box-icon>
+            </div>
+        </div>
+    </section>
+    
+
+         
+
+</body>
+</html>
